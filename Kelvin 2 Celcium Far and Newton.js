@@ -6,7 +6,7 @@ let celsius = kelvin -273; // create and calculate celsius - correct done
 
 let fahrenheit = celsius * (9/5) + 32; // create new wirh a number type - correct done
 
-fahrenheit = Math.floor(fahrenheit); // округлить градусы 
+fahrenheit = Math.floor(fahrenheit); // round
 
 console.log(`The temperature is ${fahrenheit} degress Fahrenheit`);
 
